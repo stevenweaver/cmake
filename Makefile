@@ -1,11 +1,11 @@
 all:
-	wget http://www.cmake.org/files/v2.8/cmake-2.8.11.2-Linux-i386.tar.gz
-	tar -xvzf cmake-2.8.11.2-Linux-i386.tar.gz
-	mv cmake-2.8.11.2-Linux-i386/* .
-	rm -r cmake-2.8.11.2-Linux-i386
+	wget http://www.cmake.org/files/v3.0/cmake-3.0.2-Linux-i386.tar.gz
+	tar -xvzf cmake-3.0.2-Linux-i386.tar.gz
+	mv cmake-3.0.2-Linux-i386.tar.gz/* .
+	rm -r cmake-3.0.2-Linux-i386.tar.gz
 clean:
 	rm *.tar.gz*
-	rm -r cmake-2.8.11.2*
+	rm -r cmake-3.0.2*
 	rm -r bin
 	rm -r doc
 	rm -r man
